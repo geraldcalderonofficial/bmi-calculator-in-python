@@ -1,2 +1,2 @@
-# bmi-calculator-in-python
-Calculate Body Mass Index (BMI) using feet, inches, and pounds.
+# BMI Calculator in Python
+  Calculate Body Mass Index (BMI) using feet, inches, and pounds.
