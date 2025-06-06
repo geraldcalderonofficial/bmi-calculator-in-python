@@ -3,8 +3,7 @@
 def calculate_bmi(feet, inches, pounds):
     """Calculates BMI given height in feet and inches, and weight in pounds."""
 
-    total_inches = (feet * 12) + inches
-    bmi = (pounds / (total_inches ** 2)) * 703
+    
 
     return bmi
 
@@ -25,8 +24,7 @@ if __name__ == "__main__":
         inches = int(input("Enter your height in inches: "))
         pounds = float(input("Enter your weight in pounds: "))
 
-        bmi_value = calculate_bmi(feet, inches, pounds)
-        bmi_category = interpret_bmi(bmi_value)
+
 
         print(f"Your BMI is: {bmi_value:.2f}")
         print(f"Category: {bmi_category}")
